@@ -1,4 +1,43 @@
-/** This works **/
+:root {
+    --pri-softBlue: hsl(215, 51%, 70%);
+    --pri-cyan: hsl(178, 100%, 50%);
+    --neu-veryDarkBlue-mainBG: hsl(217, 54%, 11%);
+    --neu-veryDarkBlue-cardBG: hsl(216, 50%, 16%);
+    --neu-veryDarkBlue-line: hsl(215, 32%, 27%);
+    --neu-white: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+ ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/** Main Card Style **/
+
+main {
+    width: 90vw;
+    height: fit-content;
+    border: 2px solid red;
+}
+
+#nft-art-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/** Footer Style **/
 
 .attribution {
     font-size: 11px;
